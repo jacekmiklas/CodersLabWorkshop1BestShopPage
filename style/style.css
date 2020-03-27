@@ -50,6 +50,7 @@ ul li {
 
 nav a {
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     height: 68px;
@@ -63,8 +64,64 @@ li a:hover {
     border-bottom: 3px solid #08A6E4;
 }
 
+
+/*add wraper to whole section*/
+
 /* BANER */
 
+section.baner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.section__baner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__baner h1 {
+    padding-top: 130px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.section__baner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 38px;
+
+}
+
+.section__baner button{
+    height: 67px;
+    width: 300px;
+    background-color: #08A6E4;
+    color: white;
+    border-radius: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+button a {
+    padding: 20px 60px;
+}
+
+button a:hover {
+    cursor: pointer;
+    padding: 15px;
+}
 
 
 /*FONTY*/
