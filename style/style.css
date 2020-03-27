@@ -12,7 +12,7 @@ header {
 }
 
 
-div.container{
+div.container {
     margin: 0;
     display: flex;
     width: 1352px;
@@ -35,13 +35,13 @@ div.container a.clikableLogo:hover {
 }
 
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
 
 }
 
-ul li{
+ul li {
     display: flex;
     flex-direction: row;
     padding-right: 95px;
@@ -60,9 +60,13 @@ nav a {
 
 li a:hover {
     color: #95989A;
-    border-bottom: 3px solid #08A6E4 ;
+    border-bottom: 3px solid #08A6E4;
 }
 
-                                            /*FONTY*/
+/* BANER */
+
+
+
+/*FONTY*/
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
