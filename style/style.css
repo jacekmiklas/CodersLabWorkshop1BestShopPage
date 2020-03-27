@@ -25,6 +25,7 @@ div.container{
 
 
 div.container a.clikableLogo {
+    font-family: 'Raleway', sans-serif;
     color: #08A6E4;
     font-size: 2rem;
     text-decoration: none;
@@ -48,6 +49,7 @@ ul li{
 }
 
 nav a {
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     height: 68px;
